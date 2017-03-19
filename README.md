@@ -3,7 +3,6 @@
 ![screenshot gif](https://github.com/prongbang/images/blob/master/bottom-sheet-dialog.gif?raw=true)
 
 ### Add in bottom_sheet_layout.xml ([see more...](https://github.com/prongbang/BottomSheetDialog/blob/master/app/src/main/res/layout/bottom_sheet_layout.xml))
----
 > app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
  
 ### Create Java Class extends "BottomSheetDialog" ([see more...](https://github.com/prongbang/BottomSheetDialog/blob/master/app/src/main/java/com/prongbang/bottomsheetdialog/widget/MyBottomSheetDialog.java))
