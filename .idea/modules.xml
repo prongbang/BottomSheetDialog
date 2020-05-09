@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BottomSheetDialog.iml" filepath="$PROJECT_DIR$/BottomSheetDialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/BottomSheetDialog-app.iml" filepath="$PROJECT_DIR$/app/BottomSheetDialog-app.iml" group="BottomSheetDialog/app" />
+      <module fileurl="file://$PROJECT_DIR$/Workspaces-BottomSheetDialog.iml" filepath="$PROJECT_DIR$/Workspaces-BottomSheetDialog.iml" group="BottomSheetDialog" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-bottom-sheet/smart-bottom-sheet.iml" filepath="$PROJECT_DIR$/smart-bottom-sheet/smart-bottom-sheet.iml" group="BottomSheetDialog/smart-bottom-sheet" />
     </modules>
   </component>
 </project>

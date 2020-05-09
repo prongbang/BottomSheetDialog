@@ -1,69 +1,70 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/fragment_history_menu_bottom"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#ffffff"
-    android:orientation="vertical"
-    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/fragment_history_menu_bottom"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingBottom="100dp"
+	app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawablePadding="@dimen/activity_horizontal_margin"
-        android:padding="@dimen/activity_horizontal_margin">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:drawablePadding="@dimen/activity_horizontal_margin"
+		android:padding="@dimen/activity_horizontal_margin">
 
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.2">
+		<RelativeLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="0.2">
 
-            <ImageView
-                android:id="@+id/ivAvatar"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+			<ImageView
+				android:id="@+id/ivAvatar"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="?attr/selectableItemBackgroundBorderless"
+				app:srcCompat="@mipmap/ic_launcher_round" />
 
-        </RelativeLayout>
+		</RelativeLayout>
 
-        <RelativeLayout
-            android:id="@+id/rlContent"
-            android:layout_width="0dp"
-            android:padding="@dimen/activity_horizontal_margin" android:layout_height="wrap_content"
-            android:layout_weight="1">
+		<RelativeLayout
+			android:id="@+id/rlContent"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:padding="@dimen/activity_horizontal_margin">
 
-            <TextView
-                android:id="@+id/tvTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/label_title"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:textAppearance="?android:textAppearanceLarge" />
+			<TextView
+				android:id="@+id/tvTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/label_title"
+				android:textAppearance="?android:textAppearanceLarge" />
 
-            <TextView
-                android:id="@+id/tvSubTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/tvTitle"
-                android:text="@string/label_sub_title"
-                android:textAppearance="?android:textAppearanceSmall" />
-        </RelativeLayout>
+			<TextView
+				android:id="@+id/tvSubTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/tvTitle"
+				android:autoLink="web"
+				android:text="@string/label_sub_title"
+				android:textAppearance="?android:textAppearanceSmall" />
+		</RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:gravity="end"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.1">
+		<RelativeLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.1"
+			android:gravity="end">
 
-            <ImageView
-                android:id="@+id/ivClose"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_clear_black" />
-        </RelativeLayout>
+			<ImageView
+				android:id="@+id/ivClose"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="?attr/selectableItemBackgroundBorderless"
+				app:srcCompat="@drawable/ic_clear_black" />
+		</RelativeLayout>
 
-    </LinearLayout>
+	</LinearLayout>
 
 </LinearLayout>
