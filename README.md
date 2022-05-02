@@ -1,5 +1,8 @@
 # Custom Bottom Sheet Dialog Example
 
+[![](https://jitpack.io/v/prongbang/BottomSheetDialog.svg)](https://jitpack.io/#prongbang/BottomSheetDialog)
+[![](https://jitpack.io/v/prongbang/BottomSheetDialog/month.svg)](https://jitpack.io/#prongbang/BottomSheetDialog)
+
 ### Result
 ![screenshot gif](https://github.com/prongbang/images/blob/master/bottom-sheet-dialog.gif?raw=true)
 
