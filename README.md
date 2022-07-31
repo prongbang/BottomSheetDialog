@@ -29,7 +29,7 @@ implementation 'com.github.prongbang:bottomsheetdialog:1.0.0'
 > Add in bottom_sheet_layout.xml
 
 ```xml
-app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+app:layout_behavior="@string/bottom_sheet_behavior"
 ```
 
 > MyBottomSheetDialogFragment.kt
